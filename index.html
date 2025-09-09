@@ -1,265 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Ameer Ibrahim" />
-    <meta name="keywords" content="Ameer, Ameer Ibrahim, Portfolio" />
-    <meta name="description" content="Ameer Ibrahim Portfolio" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Ameer Ibrahim" />
+        <meta name="keywords" content="Ameer, Ameer Ibrahim, Portfolio" />
+        <meta name="description" content="Ameer Ibrahim Portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
 
-    <link rel="shortcut icon" href="/src/Ameer logo.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/src/Ameer logo.png" />
-    <!-- Bootstrap 
+        <link
+            rel="shortcut icon"
+            href="/src/Ameer logo.png"
+            type="image/x-icon"
+        />
+        <link rel="apple-touch-icon" href="/src/Ameer logo.png" />
+        <!-- Bootstrap 
         ======================================================= -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
 
-    <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./style.css" />
 
-    <title>Ameer Ibrahim</title>
-  </head>
+        <title>Ameer Ibrahim</title>
+    </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-color navbar-light">
-      <div class="container">
-        <a href="/"
-          ><img src="/img/Ameer logo.svg" alt="Logo" class="logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top bg-color navbar-light">
+            <div class="container">
+                <a href="/"
+                    ><img src="/img/Ameer logo.svg" alt="Logo" class="logo"
+                /></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link about" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link skills" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link work" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link testimonials" href="#testimonials">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link contact" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <section id="home" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 origin-avatar">
-            <img src="/img/personal-photo.png" alt="" class="avatar" />
-
-            <div class="pattern-div-1">
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-            </div>
-
-            <div class="pattern-div-2">
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-              <img src="/img/pattern-1.svg" alt="" class="pattern" />
-            </div>
-
-            <div class="pattern-div-3">
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-            </div>
-
-            <div class="pattern-div-4">
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-              <img src="/img/pattern-2.svg" alt="" class="pattern" />
-            </div>
-
-            <div class="pattern-div-5"></div>
-          </div>
-
-          <div class="col-lg origin-avatar-beside">
-            <h1>Ameer Ibrahim</h1>
-            <h2>Transforming ideas into interactive websites</h2>
-            <div class="buttons">
-              <a href="/contact.html" class="button-lets-talk">
-                Let's Talk
-                <span
-                  >&nbsp;&nbsp;&nbsp;<img
-                    src="/img/lets-talk.svg"
-                    class="talk-logo"
-                /></span>
-              </a>
-              <a
-                href="/src/Ameer Ibrahim CV.pdf"
-                download="Ameer Ibrahim CV.pdf"
-                target="_blank"
-                class="button-cv"
-                >Download CV</a
-              >
-            </div>
-            <div class="check-out-my">
-              <div>Check Out My</div>
-
-              <div class="line-beside-social-link"></div>
-
-              <div>
-                <a
-                  class="social-link frontendmentor-icon"
-                  target="_blank"
-                  href="https://www.frontendmentor.io/profile/itachi-13"
-                ></a>
-              </div>
-
-              <div>
-                <a
-                  class="social-link github-icon"
-                  target="_blank"
-                  href="https://github.com/itachi-13"
-                ></a>
-              </div>
-
-              <div>
-                <a
-                  class="social-link linkedin-icon"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/ameer-ibrahim-7a035124a/"
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container">
-        <div class="row justify-content-end">
-          <div class="col-lg-6 col-md-7">
-            <h2>
-              Hi! I'm a Full-Stack Developer who is <span>passionate</span> about
-              creating visually stunning websites.
-            </h2>
-            <div></div>
-            <p>
-              I believe that great web developer requires attention to detail,
-              careful planning, and a deep understanding of the user's needs.
-            </p>
-            <p>
-              I strive to provide exceptional user experiences by combining my
-              technical skills with a keen eye for design and usability.
-            </p>
-            <p>
-              I enjoy taking on new challenges and learning new technologies to
-              stay ahead of the curve.
-            </p>
-            <p>
-              My experience has taught me the importance of creating websites
-              that are responsive, accessible, and optimized for search engines.
-            </p>
-          </div>
-          <div class="col-lg-6 col-md-5">
-            <div class="profile-card scrolling-animation scrolling-animation-transition" style="margin: 0 auto;">
-              <img src="/img/profile-card-bottom.png" class="bottom-border" />
-              <div class="wave-background"></div>
-              <div class="profile-card-picture">
-                <img src="/img/Profile Picture.jpg" alt="Profile Picture" />
-                <div><div></div></div>
-              </div>
-
-              <h3>Ameer Ibrahim</h3>
-
-              <div class="contact">
-                <div>
-                  <img src="/img/mail.svg" alt="mail-icon" />
-                  <a target="_blank" href="mailto: ameer.programmer@gmail.com"
-                    >ameer.pro@gmail.com</a
-                  >
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link about" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link skills" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link projects" href="#projects"
+                                >Projects</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link testimonials"
+                                href="#testimonials"
+                                >Testimonials</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link contact" href="#contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
                 </div>
-                <div>
-                  <img src="/img/phone.svg" alt="tel-icon" class="tel-icon" />
-                  <a target="_blank" href="tel:+9647512062948"
-                    >+964 751 206 2948</a
-                  >
-                </div>
-                <div>
-                  <img src="/img/location-icon.svg" alt="location-icon" />
-                  <a
-                    target="_blank"
-                    href="https://goo.gl/maps/m7cCRA7y5SVR2wq76"
-                    >Duhok</a
-                  >
-                </div>
-              </div>
-
-              <div class="social-links">
-                <a
-                  target="_blank"
-                  href="https://twitter.com"
-                  class="social-link"
-                >
-                  <img src="./img/twitter2-icon.svg" alt="twitter-icon" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://www.facebook.com"
-                  class="social-link"
-                >
-                  <img src="./img/facebook-icon.svg" alt="facebook-icon" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com"
-                  class="social-link"
-                  style="width: 20px"
-                >
-                  <img src="./img/instagram-icon.svg" alt="instagram-icon" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/ameer-ibrahim-7a035124a/"
-                  class="social-link"
-                >
-                  <img src="./img/linkedin-icon.svg" alt="linkedin-icon" />
-                </a>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </nav>
 
-    <section id="skills" class="section">
+        <section id="home" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 origin-avatar">
+                        <img
+                            src="/img/personal-photo.png"
+                            alt=""
+                            class="avatar"
+                        />
+
+                        <div class="pattern-div-1">
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                        </div>
+
+                        <div class="pattern-div-2">
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-1.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                        </div>
+
+                        <div class="pattern-div-3">
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                        </div>
+
+                        <div class="pattern-div-4">
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                            <img
+                                src="/img/pattern-2.svg"
+                                alt=""
+                                class="pattern"
+                            />
+                        </div>
+
+                        <div class="pattern-div-5"></div>
+                    </div>
+
+                    <div class="col-lg origin-avatar-beside">
+                        <h1>Ameer Ibrahim</h1>
+                        <h2>Transforming ideas into interactive websites</h2>
+                        <div class="buttons">
+                            <a href="/contact.html" class="button-lets-talk">
+                                Let's Talk
+                                <span
+                                    >&nbsp;&nbsp;&nbsp;<img
+                                        src="/img/lets-talk.svg"
+                                        class="talk-logo"
+                                /></span>
+                            </a>
+                            <a
+                                href="/src/Ameer Ibrahim CV.pdf"
+                                download="Ameer Ibrahim CV.pdf"
+                                target="_blank"
+                                class="button-cv"
+                                >Download CV</a
+                            >
+                        </div>
+                        <div class="check-out-my">
+                            <div>Check Out My</div>
+
+                            <div class="line-beside-social-link"></div>
+
+                            <div>
+                                <a
+                                    class="social-link github-icon"
+                                    target="_blank"
+                                    href="https://github.com/AmeerZinzo"
+                                ></a>
+                            </div>
+                            <div>
+                                <a
+                                    class="social-link linkedin-icon"
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/ameer-ibrahim-7a035124a/"
+                                ></a>
+                            </div>
+                            <div>
+                                <a
+                                    class="social-link frontendmentor-icon"
+                                    target="_blank"
+                                    href="https://www.frontendmentor.io/profile/itachi-13"
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-6 col-md-7">
+                        <h2>
+                            Hi! I'm a Full-Stack Developer who is
+                            <span>passionate</span> about creating visually
+                            stunning websites.
+                        </h2>
+                        <div></div>
+                        <p>
+                            I believe that great web developer requires
+                            attention to detail, careful planning, and a deep
+                            understanding of the user's needs.
+                        </p>
+                        <p>
+                            I strive to provide exceptional user experiences by
+                            combining my technical skills with a keen eye for
+                            design and usability.
+                        </p>
+                        <p>
+                            I enjoy taking on new challenges and learning new
+                            technologies to stay ahead of the curve.
+                        </p>
+                        <p>
+                            My experience has taught me the importance of
+                            creating websites that are responsive, accessible,
+                            and optimized for search engines.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-5">
+                        <div
+                            class="profile-card scrolling-animation scrolling-animation-transition"
+                            style="margin: 0 auto"
+                        >
+                            <img
+                                src="/img/profile-card-bottom.png"
+                                class="bottom-border"
+                            />
+                            <div class="wave-background"></div>
+                            <div class="profile-card-picture">
+                                <img
+                                    src="/img/Profile Picture.jpg"
+                                    alt="Profile Picture"
+                                />
+                                <div><div></div></div>
+                            </div>
+
+                            <h3>Ameer Ibrahim</h3>
+
+                            <div class="contact">
+                                <div>
+                                    <img src="/img/mail.svg" alt="mail-icon" />
+                                    <a
+                                        target="_blank"
+                                        href="mailto: ameer.programmer@gmail.com"
+                                        >ameer.programmer@gmail.com</a
+                                    >
+                                </div>
+                                <div>
+                                    <img
+                                        src="/img/phone.svg"
+                                        alt="tel-icon"
+                                        class="tel-icon"
+                                    />
+                                    <a target="_blank" href="tel:+9647512062948"
+                                        >+964 751 206 2948</a
+                                    >
+                                </div>
+                                <div>
+                                    <img
+                                        src="/img/location-icon.svg"
+                                        alt="location-icon"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://goo.gl/maps/m7cCRA7y5SVR2wq76"
+                                        >Duhok</a
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="social-links">
+                                <a
+                                    target="_blank"
+                                    href="https://x.com"
+                                    class="social-link"
+                                >
+                                    <img src="./img/x-icon.svg" alt="x-icon" />
+                                </a>
+                                <a
+                                    target="_blank"
+                                    href="https://www.facebook.com"
+                                    class="social-link"
+                                >
+                                    <img
+                                        src="./img/facebook-icon.svg"
+                                        alt="facebook-icon"
+                                    />
+                                </a>
+                                <a
+                                    target="_blank"
+                                    href="https://www.instagram.com"
+                                    class="social-link"
+                                    style="width: 20px"
+                                >
+                                    <img
+                                        src="./img/instagram-icon.svg"
+                                        alt="instagram-icon"
+                                    />
+                                </a>
+                                <a
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/ameer-ibrahim-7a035124a/"
+                                    class="social-link"
+                                >
+                                    <img
+                                        src="./img/linkedin-icon.svg"
+                                        alt="linkedin-icon"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="skills" class="section">
       <div>
         <h2>Skills I use</h2>
         <div class="skills-container scrolling-animation scrolling-animation-transition">
           <div class="skills">
-            <!-- <div class="skill x"><img src="./img/typescriptlang-icon.svg" alt="typescript-logo"></div>
-                    <div class="skill y"><img src="./img/typescriptlang-official.svg" alt="typescript"></div> -->
 
             <div class="skill">
               <img src="./img/html5-icon.svg" alt="html5-logo" />
@@ -282,10 +405,10 @@
             </div>
             <div class="skill"><img src="./img/npm.svg" alt="npm-logo" /></div>
             <div class="skill"><img src="./img/seo-icon.svg" alt="seo-icon" /></div>
-            <div class="skill"><img src="./img/git.svg" alt="git-icon" /></div>
+            <div class="skill"><img src="./img/git.svg" alt="git-icon" /></div> -->
 
-            <!-- doubled -->
-            <div class="skill">
+        <!-- doubled -->
+        <!-- <div class="skill">
               <img src="./img/html5-icon.svg" alt="html5-logo" />
             </div>
             <div class="skill">
@@ -310,365 +433,569 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="work" class="section">
-      <div class="featured-projects">
-        <div class="container">
-          <h2>Featured Projects</h2>
-          <div><div></div></div>
-          <div class="row">
-            <div class="col-lg-6 column scrolling-animation scrolling-animation-transition">
-              <div>
-                <div class="img-container">
-                  <a href="https://paintapponline.netlify.app" target="_blank">
-                    <div>
-                      <img class="paint-app" src="./img/paint-laptop.png" alt="paint-app" />
-                    </div>
-                  </a>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div><div></div></div>
+            <div class="container">
+                <div class="libraries">
+                    <!-- Todo: Add icons for each library -->
+                    <!-- Todo: Add description for each project
+                      like Amrita one is an E-commerce web app + Practitioners platform -->
+                    <!-- Todo: Node.js projects -->
+                    <!-- Todo: Add Duhok electrical project -->
+                    <ul>
+                        <li
+                            onclick="clickSkill(this, 'all')"
+                            class="active-skill"
+                        >
+                            All
+                        </li>
+                        <li onclick="clickSkill(this, 'bootstrap')">
+                            Bootstrap
+                        </li>
+                        <li onclick="clickSkill(this, 'tailwind')">Tailwind</li>
+                        <li onclick="clickSkill(this, 'typescript')">
+                            TypeScript
+                        </li>
+                        <!-- <img
+                                src="./img/react.png"
+                                alt="react-logo"
+                                style="max-width: 30px"
+                            /> -->
+                        <li onclick="clickSkill(this, 'react')">React</li>
+                        <li onclick="clickSkill(this, 'nextjs')">Next.js</li>
+                        <li onclick="clickSkill(this, 'nodejs')">Node.js</li>
+                        <li onclick="clickSkill(this, 'flask')">Flask</li>
+                        <li onclick="clickSkill(this, 'docker')">Docker</li>
+                        <li onclick="clickSkill(this, 'postgresql')">
+                            PostgreSQL
+                        </li>
+                        <li onclick="clickSkill(this, 'mongodb')">MongoDB</li>
+                    </ul>
                 </div>
-  
-                <div class="details">
-                  <h3>Paint</h3>
-                  <p>Paint App</p>
-                  <a href="https://paintapponline.netlify.app" target="_blank">
-                    View Project
-                    <svg
-                      data-bbox="5.993 7 22 18"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 33 32"
-                      height="32"
-                      width="33"
-                      data-type="ugc"
+
+                <!-- <h3 id="skill-name">Select a skill</h3>
+                <p>
+                    <strong>Experience:</strong>
+                    <span id="skill-years">-</span> years
+                </p>
+                <p>
+                    <strong>Projects:</strong>
+                    <span id="skill-projects">-</span>
+                </p> -->
+                <!-- <p>
+                    <strong>Experience:</strong>
+                    <span id="skill-years">-</span> years
+                </p> -->
+                <p><strong>Skill:</strong> <span id="skill-name">All</span></p>
+                <p>
+                    <strong>Experience:</strong>
+                    <span id="skill-years">4</span>+ years
+                </p>
+                <p>
+                    <strong>Projects:</strong>
+                    <span class="results-count">7</span>
+                </p>
+                <!-- <h3 class="results">
+                    Projects: <span class="results-count">7</span>
+                </h3> -->
+            </div>
+
+            <div class="container projects client-projects">
+                <h2>Client Projects</h2>
+                <div><div></div></div>
+                <div class="row">
+                    <div
+                        class="col-12 col-md-6 col-xl-4 scrolling-animation scrolling-animation-transition"
                     >
-                      <g>
-                        <path
-                          stroke-linejoin="round"
-                          stroke-linecap="round"
-                          stroke-width="2"
-                          stroke="#3a4764"
-                          d="M5.993 16h22"
-                          fill="none"
-                        ></path>
-                        <path
-                          stroke-linejoin="round"
-                          stroke-linecap="round"
-                          stroke-width="2"
-                          stroke="#3a4764"
-                          d="m18.993 7 9 9-9 9"
-                          fill="none"
-                        ></path>
-                      </g>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-6 column scrolling-animation scrolling-animation-transition">
-              <div>
-                <div class="img-container">
-                  <a
-                    href="https://majestic-crisp-e68a7c.netlify.app"
-                    target="_blank"
-                  >
-                    <div>
-                      <img class="weather-app" src="./img/weather-laptop.png" alt="weather-app" />
+                        <div
+                            class="project-container tailwind typescript react flask docker postgresql"
+                        >
+                            <div class="img-container">
+                                <a
+                                    href="https://amritanutrition.com"
+                                    target="_blank"
+                                    ><img
+                                        src="./img/amrita-laptop.png"
+                                        alt="amrita"
+                                /></a>
+                                <h3>Amrita Nutrition</h3>
+                                <h6>E-commerce & Healthcare Platform</h6>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Tech Stack</h4>
+                                <ul>
+                                    <li>Vite (React)</li>
+                                    <li>TypeScript</li>
+                                    <li>Tailwind</li>
+                                    <li>Storybook</li>
+                                    <li>i18next</li>
+                                    <li>REST API</li>
+                                    <li>JWT</li>
+                                    <li>Python</li>
+                                    <li>Flask</li>
+                                    <li>Docker</li>
+                                    <li>Nginx</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Redis</li>
+                                    <li>Typesense</li>
+                                    <li>Shopify</li>
+                                    <li>GraphQL</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                  </a>
-                </div>
-  
-                <div class="details">
-                  <h3>Weather</h3>
-                  <p>Weather Forecast App</p>
-                  <a
-                    href="https://majestic-crisp-e68a7c.netlify.app"
-                    target="_blank"
-                  >
-                    View Project
-                    <svg
-                      data-bbox="5.993 7 22 18"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 33 32"
-                      height="32"
-                      width="33"
-                      data-type="ugc"
+
+                    <div
+                        class="col-12 col-md-6 col-xl-4 scrolling-animation scrolling-animation-transition"
                     >
-                      <g>
-                        <path
-                          stroke-linejoin="round"
-                          stroke-linecap="round"
-                          stroke-width="2"
-                          stroke="#1D67CD"
-                          d="M5.993 16h22"
-                          fill="none"
-                        ></path>
-                        <path
-                          stroke-linejoin="round"
-                          stroke-linecap="round"
-                          stroke-width="2"
-                          stroke="#1D67CD"
-                          d="m18.993 7 9 9-9 9"
-                          fill="none"
-                        ></path>
-                      </g>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-  
-          <div class="row justify-content-center">
-            <div class="col-lg-8 column scrolling-animation scrolling-animation-transition">
-              <div>
-                <div class="img-container">
-                  <a href="https://kick-off.pages.dev" target="_blank">
-                    <div>
-                      <img class="kick-off" src="./img/kick-off-laptop.png" alt="kick-off" />
+                        <div
+                            class="project-container tailwind typescript react flask docker postgresql"
+                        >
+                            <div class="img-container">
+                                <a
+                                    href="https://store.amritanutrition.com"
+                                    target="_blank"
+                                    ><img
+                                        src="./img/amrita-store.png"
+                                        alt="amrita"
+                                /></a>
+
+                                <h3>Amrita Nutrition Store</h3>
+                                <h6>E-commerce & Healthcare Platform</h6>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Tech Stack</h4>
+                                <ul>
+                                    <li>Vite (React)</li>
+                                    <li>TypeScript</li>
+                                    <li>Tailwind</li>
+                                    <li>Storybook</li>
+                                    <li>i18next</li>
+                                    <li>REST API</li>
+                                    <li>JWT</li>
+                                    <li>Python</li>
+                                    <li>Flask</li>
+                                    <li>Docker</li>
+                                    <li>Nginx</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Redis</li>
+                                    <li>Typesense</li>
+                                    <li>Shopify</li>
+                                    <li>GraphQL</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                  </a>
-                </div>
-  
-                <div class="details">
-                  <h3>Kick off</h3>
-                  <p>Online Football Clubs Shop</p>
-                  <a href="https://kick-off.pages.dev" target="_blank">
-                    View Project
-                    <svg
-                      data-bbox="5.993 7 22 18"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 33 32"
-                      height="32"
-                      width="33"
-                      data-type="ugc"
+
+                    <div
+                        class="col-12 col-md-6 col-xl-4 scrolling-animation scrolling-animation-transition"
                     >
-                      <g>
-                        <path
-                          stroke-linejoin="round"
-                          stroke-linecap="round"
-                          stroke-width="2"
-                          stroke="#ffc800"
-                          d="M5.993 16h22"
-                          fill="none"
-                        ></path>
-                        <path
-                          stroke-linejoin="round"
-                          stroke-linecap="round"
-                          stroke-width="2"
-                          stroke="#ffc800"
-                          d="m18.993 7 9 9-9 9"
-                          fill="none"
-                        ></path>
-                      </g>
-                    </svg>
-                  </a>
+                        <div
+                            class="project-container tailwind typescript react"
+                        >
+                            <div class="img-container">
+                                <a
+                                    href="https://duhokindustry.com"
+                                    target="_blank"
+                                    ><img
+                                        src="./img/duhok-industry.png"
+                                        alt="duhok-industry"
+                                /></a>
+                                <h3>Duhok Industry</h3>
+                                <h6>Interactive Map</h6>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Tech Stack</h4>
+                                <ul>
+                                    <li>Vite (React)</li>
+                                    <li>TypeScript</li>
+                                    <li>Tailwind</li>
+                                    <li>Storybook</li>
+                                    <li>Leaflet</li>
+                                    <li>Redux</li>
+                                    <li>i18next</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-12 col-md-6 col-xl-4 scrolling-animation scrolling-animation-transition"
+                    >
+                        <div
+                            class="project-container bootstrap typescript react nextjs"
+                        >
+                            <!-- Update Zinzo project image -->
+                            <div class="img-container">
+                                <a href="https://zinzo.com" target="_blank"
+                                    ><img
+                                        src="./img/zinzo.png"
+                                        alt="duhok-industry"
+                                /></a>
+                                <h3>Zinzo</h3>
+                                <h6>Corporate Website</h6>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Tech Stack</h4>
+                                <ul>
+                                    <li>Next.js (Front-End)</li>
+                                    <li>TypeScript</li>
+                                    <li>CSS</li>
+                                    <li>Bootstrap</li>
+                                    <li>Storybook</li>
+                                    <li>i18next</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="practice-projects">
-        <div class="container">
-          <h2>Practice Projects</h2>        
-          <div><div></div></div>
-          <div class="row justify-content-center">
-            <div class="col-3 scrolling-animation scrolling-animation-transition">
-              <a href="https://phenomenal-cupcake-1c22d8.netlify.app" target="_blank"><img src="./img/practice-projects/Time tracking dashboard.png" alt="Time tracking dashboard"></a>
-            </div>
-            <div class="col-3 scrolling-animation scrolling-animation-transition">
-              <a href="https://strong-melba-81b8e2.netlify.app" target="_blank"><img src="./img/practice-projects/E-commerce product page.png" alt="E-commerce product page"></a>
-            </div>
-          </div>
-  
-          <div class="row justify-content-center">
-            <div class="col-3 scrolling-animation scrolling-animation-transition">
-              <a href="https://flourishing-truffle-9a357d.netlify.app" target="_blank"><img src="./img/practice-projects/Expenses chart component.png" alt="Expenses chart component"></a>
-            </div>
-            <div class="col-3 scrolling-animation scrolling-animation-transition">
-              <a href="https://extraordinary-tapioca-6f8e49.netlify.app" target="_blank"><img src="./img/practice-projects/Calculator app.png" alt="Calculator app"></a>
-            </div>
-            <div class="col-3 scrolling-animation scrolling-animation-transition">
-              <a href="https://willowy-melomakarona-f5a34f.netlify.app/?" target="_blank"><img src="./img/practice-projects/Interactive card details form.png" alt="Interactive card details form"></a>
-            </div>
-          </div>
-  
-          <div class="row justify-content-center mb-5">
-            <div class="col-3 scrolling-animation scrolling-animation-transition">
-              <a href="https://genuine-quokka-ce91b1.netlify.app" target="_blank"><img src="./img/practice-projects/FAQ accordion card.png" alt="FAQ accordion card"></a>
-            </div>
-            <div class="col-3 scrolling-animation scrolling-animation-transition">
-              <a href="https://steady-nasturtium-9650f3.netlify.app" target="_blank"><img src="./img/practice-projects/Interactive rating component.png" alt="Interactive rating component"></a>
-            </div>
-          </div>
-  
-          <a class="view-all" href="https://www.frontendmentor.io/profile/itachi-13/solutions" target="_blank">View all projects</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="testimonials" class="section">
-      <h2>Testimonials
-      </h2>
-      <div><div></div></div>
-
-      <img src="./img/right-arrow.svg" alt="right arrow" class="right-arrow">
-      <img src="./img/right-arrow.svg" alt="left arrow" class="left-arrow">
-
-      <div class="testimonials-container">
-          <div class="testimonial-container first">
-            <img src="./img/quotations.svg" alt="quotations" class="quotations">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, mollitia obcaecati odio in necessitatibus ducimus</p>
-
-            <div class="quote-author">
-              <img src="./img/Matt Studdert.webp" alt="Matt Studdert">
-              <p>Matt Studdert</p>
-            </div>
             </div>
 
-            <div class="testimonial-container second">
-              <img src="./img/quotations.svg" alt="quotations" class="quotations">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, mollitia obcaecati odio in necessitatibus ducimus.</p>
+            <div class="container projects personal-projects">
+                <h2>Personal Projects</h2>
+                <div><div></div></div>
+                <div class="row">
+                    <div
+                        class="col-12 col-md-6 col-xl-4 scrolling-animation scrolling-animation-transition"
+                    >
+                        <div class="project-container bootstrap react">
+                            <div class="img-container">
+                                <a
+                                    href="https://kick-off.pages.dev/"
+                                    target="_blank"
+                                    ><img src="./img/kick-off.png" alt="amrita"
+                                /></a>
+                                <h3>Kick off</h3>
+                                <h6>E-commerce</h6>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Tech Stack</h4>
+                                <ul>
+                                    <li>React</li>
+                                    <li>CSS</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-              <div class="quote-author">
-                <img src="./img/Quincy-Larson-photo.jpg" alt="Quincy Larson">
-                <p>Quincy Larson</p>
-              </div>
+                    <div
+                        class="col-12 col-md-6 col-xl-4 scrolling-animation scrolling-animation-transition"
+                    >
+                        <div class="project-container react">
+                            <div class="img-container">
+                                <a
+                                    href="https://majestic-crisp-e68a7c.netlify.app/"
+                                    target="_blank"
+                                    ><img
+                                        src="./img/weather-laptop-2.png"
+                                        alt="amrita"
+                                /></a>
+
+                                <h3>Weather app</h3>
+                                <h6>Weather Forecast Application</h6>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Tech Stack</h4>
+                                <ul>
+                                    <li>React</li>
+                                    <li>CSS</li>
+                                    <li>API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-12 col-md-6 col-xl-4 scrolling-animation scrolling-animation-transition"
+                    >
+                        <div
+                            class="project-container tailwind typescript react nextjs mongodb"
+                        >
+                            <div class="img-container">
+                                <a
+                                    href="https://crud-comments.netlify.app/"
+                                    target="_blank"
+                                    ><img
+                                        src="./img/comments-app.png"
+                                        alt="amrita"
+                                /></a>
+
+                                <h3>Comments app</h3>
+                                <h6>CRUD Application</h6>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Tech Stack</h4>
+                                <ul>
+                                    <li>Next.js (Full-Stack)</li>
+                                    <li>TypeScript</li>
+                                    <li>Tailwind</li>
+                                    <li>REST API</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-    
-            <div class="testimonial-container third">
-              <img src="./img/quotations.svg" alt="quotations" class="quotations">
-              <p>I'm a hardworking, dedicated person who always strives to do my best and make a meaningful contribution in everything I do.</p>
-    
-              <div class="quote-author">
-                  <img src="./img/Avatar.jpg" alt="Ameer Ibrahim">
-                <p>Ameer Ibrahim</p>
-              </div>
             </div>
-    
-            <div class="testimonial-container fourth">
-              <img src="./img/quotations.svg" alt="quotations" class="quotations">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, mollitia obcaecati odio in necessitatibus ducimus.</p>
+        </section>
 
-              <div class="quote-author">
-                <img src="./img/Matt Studdert.webp" alt="Matt Studdert">
-                <p>Matt Studdert</p>
-              </div>
+        <section id="testimonials" class="section">
+            <h2>Testimonials</h2>
+            <div><div></div></div>
+
+            <img
+                src="./img/right-arrow.svg"
+                alt="right arrow"
+                class="right-arrow"
+            />
+            <img
+                src="./img/right-arrow.svg"
+                alt="left arrow"
+                class="left-arrow"
+            />
+
+            <div class="testimonials-container">
+                <div class="testimonial-container first">
+                    <img
+                        src="./img/quotations.svg"
+                        alt="quotations"
+                        class="quotations"
+                    />
+                    <p>
+                        Working with Ameer has been a great experience. His
+                        contributions have made a real impact on our projects'
+                        success.
+                    </p>
+
+                    <a
+                        href="https://www.linkedin.com/in/mclanting/"
+                        target="_blank"
+                        class="quote-author"
+                    >
+                        <img
+                            src="./img/menno-lanting.png"
+                            alt="Menno Lanting"
+                        />
+                        <p>Menno Lanting</p>
+                    </a>
                 </div>
 
-            <div class="testimonial-container fifth">
-              <img src="./img/quotations.svg" alt="quotations" class="quotations">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, mollitia obcaecati odio in necessitatibus ducimus.</p>
+                <div class="testimonial-container second">
+                    <img
+                        src="./img/quotations.svg"
+                        alt="quotations"
+                        class="quotations"
+                    />
+                    <p>
+                        Ameer's expertise in React and Python, along with his
+                        understanding of modern web technologies, has greatly
+                        improved our development workflow.
+                    </p>
 
-              <div class="quote-author">
-                <img src="./img/Quincy-Larson-photo.jpg" alt="Quincy Larson">
-                <p>Quincy Larson</p>
-              </div>
+                    <a
+                        href="https://www.linkedin.com/in/karim-khan-b44b55261/"
+                        target="_blank"
+                        class="quote-author"
+                    >
+                        <img src="./img/karim-khan3.jpg" alt="Karim Khan" />
+                        <p>Karim Khan</p>
+                    </a>
                 </div>
-        
+
+                <div class="testimonial-container third">
+                    <img
+                        src="./img/quotations.svg"
+                        alt="quotations"
+                        class="quotations"
+                    />
+                    <p>
+                        I'm a hardworking, dedicated person who always strives
+                        to do my best and make a meaningful contribution in
+                        everything I do.
+                    </p>
+
+                    <a
+                        href="https://www.linkedin.com/in/ameer-ibrahim-7a035124a/"
+                        target="_blank"
+                        class="quote-author"
+                    >
+                        <img src="./img/Avatar.jpg" alt="Ameer Ibrahim" />
+                        <p>Ameer Ibrahim</p>
+                    </a>
+                </div>
+
+                <div class="testimonial-container fourth">
+                    <img
+                        src="./img/quotations.svg"
+                        alt="quotations"
+                        class="quotations"
+                    />
+                    <p>
+                        Working with Ameer has been a great experience. His
+                        contributions have made a real impact on our projects'
+                        success.
+                    </p>
+
+                    <a
+                        href="https://www.linkedin.com/in/mclanting/"
+                        target="_blank"
+                        class="quote-author"
+                    >
+                        <img
+                            src="./img/menno-lanting.png"
+                            alt="Menno Lanting"
+                        />
+                        <p>Menno Lanting</p>
+                    </a>
+                </div>
+
+                <div class="testimonial-container fifth">
+                    <img
+                        src="./img/quotations.svg"
+                        alt="quotations"
+                        class="quotations"
+                    />
+                    <p>
+                        Ameer's expertise in React and Python, along with his
+                        understanding of modern web technologies, has greatly
+                        improved our development workflow
+                    </p>
+
+                    <a
+                        href="https://www.linkedin.com/in/karim-khan-b44b55261/"
+                        target="_blank"
+                        class="quote-author"
+                    >
+                        <img src="./img/karim-khan3.jpg" alt="Karim Khan" />
+                        <p>Karim Khan</p>
+                    </a>
+                </div>
+
                 <div class="testimonial-container sixth">
-                  <img src="./img/quotations.svg" alt="quotations" class="quotations">
-                  <p>I'm a hardworking, dedicated person who always strives to do my best and make a meaningful contribution in everything I do.</p>
-        
-                  <div class="quote-author">
-                    <img src="./img/Avatar.jpg" alt="Ameer Ibrahim">
-                    <p>Ameer Ibrahim</p>
-                  </div>
-                </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Get In Touch</h2>
-        <div class="row justify-content-center mt-5">
-          <div class="col-md-8">
-            <form>
-              <div class="row">
-                <div class="col-lg">
-                  <div class="mb-3 mt-3">
-                    <label for="name">Your Name</label>
-                    <input
-                      type="name"
-                      class="form-control mt-1"
-                      id="name"
-                      placeholder=""
-                      name="name"
-                      required
+                    <img
+                        src="./img/quotations.svg"
+                        alt="quotations"
+                        class="quotations"
                     />
-                  </div>
+                    <p>
+                        I'm a hardworking, dedicated person who always strives
+                        to do my best and make a meaningful contribution in
+                        everything I do.
+                    </p>
 
-                  <div class="mb-3">
-                    <label for="email">Email</label>
-                    <input
-                      type="email"
-                      class="form-control mt-1"
-                      id="email"
-                      placeholder=""
-                      name="email"
-                      required
-                    />
-                  </div>
+                    <a
+                        href="https://www.linkedin.com/in/ameer-ibrahim-7a035124a/"
+                        target="_blank"
+                        class="quote-author"
+                    >
+                        <img src="./img/Avatar.jpg" alt="Ameer Ibrahim" />
+                        <p>Ameer Ibrahim</p>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-                  <div class="mb-3">
-                    <label for="phone-number">Phone</label>
-                    <input
-                      type="tel"
-                      class="form-control mt-1"
-                      id="phone-number"
-                      placeholder=""
-                      name="phone-number"
-                    />
-                  </div>
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg">
+                                    <div class="mb-3 mt-3">
+                                        <label for="name">Your Name</label>
+                                        <input
+                                            type="name"
+                                            class="form-control mt-1"
+                                            id="name"
+                                            placeholder=""
+                                            name="name"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="email">Email</label>
+                                        <input
+                                            type="email"
+                                            class="form-control mt-1"
+                                            id="email"
+                                            placeholder=""
+                                            name="email"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="phone-number">Phone</label>
+                                        <input
+                                            type="tel"
+                                            class="form-control mt-1"
+                                            id="phone-number"
+                                            placeholder=""
+                                            name="phone-number"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg">
+                                    <div class="mb-3 mt-3">
+                                        <label for="message">Message</label>
+                                        <textarea
+                                            class="form-control mt-1"
+                                            id="message"
+                                            name="text"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn mt-3">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row contact">
+                    <div class="col-12 col-sm-6">
+                        <img
+                            src="/img/phone.svg"
+                            alt="tel-icon"
+                            class="tel-icon"
+                        />
+                        <a href="tel:+9647512062948">+964 751 206 2948</a>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <img src="/img/mail.svg" alt="mail-icon" />
+                        <a href="mailto: ameer.programmer@gmail.com"
+                            >ameer.programmer@gmail.com</a
+                        >
+                    </div>
                 </div>
 
-                <div class="col-lg">
-                  <div class="mb-3 mt-3">
-                    <label for="message">Message</label>
-                    <textarea
-                      class="form-control mt-1"
-                      id="message"
-                      name="text"
-                      required
-                    ></textarea>
-                  </div>
+                <div style="text-align: center; margin-top: 30px" class="row">
+                    <div class="col">© 2025 to Ameer Ibrahim</div>
                 </div>
-              </div>
+            </div>
+        </footer>
 
-              <button type="submit" class="btn mt-3">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
 
-    <footer>
-      <div class="container">
-        <div class="row contact">
-          <div class="col-12 col-sm-6">
-            <img src="/img/phone.svg" alt="tel-icon" class="tel-icon" />
-            <a href="tel:+9647512062948">+964 751 206 2948</a>
-          </div>
-          <div class="col-12 col-sm-6">
-            <img src="/img/mail.svg" alt="mail-icon" />
-            <a href="mailto: ameer.programmer@gmail.com">ameer.programmer@gmail.com</a>
-          </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 30px" class="row">
-          <div class="col">© 2022 to Ameer Ibrahim</div>
-        </div>
-      </div>
-    </footer>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="./script.js"></script>
-  </body>
+        <script src="./script.js"></script>
+    </body>
 </html>
