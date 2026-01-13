@@ -522,12 +522,12 @@ a {
     width: 100%;
 }
 
-#projects {
+#projects-old {
     background-color: white;
     padding-top: 100px;
 }
 
-#projects h2 + div,
+#projects-old h2 + div,
 /* .projects h2 + div, */
 #testimonials h2 + div {
     display: flex;
@@ -535,7 +535,7 @@ a {
     margin-bottom: 50px;
 }
 
-#projects h2 + div > div,
+#projects-old h2 + div > div,
 .projects h2 + div > div,
 #testimonials h2 + div > div {
     width: 40px;
@@ -549,7 +549,7 @@ a {
     display: block !important;
 }
 
-#projects h2 {
+#projects-old h2 {
     text-align: center;
     margin-bottom: 0;
     font-weight: 600;
@@ -582,7 +582,7 @@ a {
     color: white;
 }
 
-#projects .results {
+#projects-old .results {
     /* padding-left: 200px; */
     color: #6f45e5;
 }
@@ -595,40 +595,40 @@ a {
     text-align: left !important;
 }
 
-#projects .row > div {
+#projects-old .row > div {
     margin-bottom: 20px;
 }
 
-#projects .project-container {
+#projects-old .project-container {
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
     border-radius: 10px;
     transition: 0.5s;
 }
 
-#projects .project-container:hover {
+#projects-old .project-container:hover {
     transform: scale(1.05);
 }
 
-#projects .img-container {
+#projects-old .img-container {
     background-color: white;
     border-radius: 10px 10px 0 0;
     text-align: center;
     border-bottom: 1px solid rgb(0 0 0 / 16%);
 }
 
-#projects img {
+#projects-old img {
     border-radius: 10px 10px 0 0;
     border-radius: 10px;
     max-width: 100%;
 }
 
-#projects .img-container h3 {
+#projects-old .img-container h3 {
     margin-top: 16px;
     margin-left: 0;
     margin-right: 0;
 }
 
-#projects .tech-stack {
+#projects-old .tech-stack {
     /* display: flex; */
     text-align: left;
     margin-top: 8px;
@@ -637,7 +637,7 @@ a {
     padding-bottom: 20px;
 }
 
-#projects .tech-stack ul {
+#projects-old .tech-stack ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -953,13 +953,13 @@ footer a {
     }
 
     #skills h2,
-    #projects h2,
+    #projects-old h2,
     #testimonials h2,
     #contact h2 {
         font-size: 26px;
     }
 
-    #projects .row {
+    #projects-old .row {
         margin-bottom: 8px;
     }
 
